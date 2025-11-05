@@ -1,0 +1,10 @@
+CREATE DATABASE web_portal;
+USE web_portal;
+
+CREATE TABLE Employee (
+    EmpID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    Salary DOUBLE
+);
+
+INSERT INTO Employee VALUES (1, 'Ravi', 45000), (2, 'Neha', 55000), (3, 'Amit', 60000);
